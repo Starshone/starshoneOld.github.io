@@ -160,82 +160,6 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/27/Readme/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/27/Readme/" class="post-title-link" itemprop="url">Untitled</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2021-07-27 21:48:40 / Modified: 21:48:18" itemprop="dateCreated datePublished" datetime="2021-07-27T21:48:40+08:00">2021-07-27</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="Path-to-RegExp"><a href="#Path-to-RegExp" class="headerlink" title="Path-to-RegExp"></a>Path-to-RegExp</h1><p>Turn an Express-style path string such as <code>/user/:name</code> into a regular expression.</p>
-<p><strong>Note:</strong> This is a legacy branch. You should upgrade to <code>1.x</code>.</p>
-<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> pathToRegexp = <span class="built_in">require</span>(<span class="string">&#x27;path-to-regexp&#x27;</span>);</span><br></pre></td></tr></table></figure>
-
-<h3 id="pathToRegexp-path-keys-options"><a href="#pathToRegexp-path-keys-options" class="headerlink" title="pathToRegexp(path, keys, options)"></a>pathToRegexp(path, keys, options)</h3><ul>
-<li><strong>path</strong> A string in the express format, an array of such strings, or a regular expression</li>
-<li><strong>keys</strong> An array to be populated with the keys present in the url.  Once the function completes, this will be an array of strings.</li>
-<li><strong>options</strong><ul>
-<li><strong>options.sensitive</strong> Defaults to false, set this to true to make routes case sensitive</li>
-<li><strong>options.strict</strong> Defaults to false, set this to true to make the trailing slash matter.</li>
-<li><strong>options.end</strong> Defaults to true, set this to false to only match the prefix of the URL.</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> keys = [];</span><br><span class="line"><span class="keyword">var</span> exp = pathToRegexp(<span class="string">&#x27;/foo/:bar&#x27;</span>, keys);</span><br><span class="line"><span class="comment">//keys = [&#x27;bar&#x27;]</span></span><br><span class="line"><span class="comment">//exp = /^\/foo\/(?:([^\/]+?))\/?$/i</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="Live-Demo"><a href="#Live-Demo" class="headerlink" title="Live Demo"></a>Live Demo</h2><p>You can see a live demo of this library in use at <a target="_blank" rel="noopener" href="http://forbeslindesay.github.com/express-route-tester/">express-route-tester</a>.</p>
-<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p>  MIT</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/27/20210727/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -370,7 +294,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
